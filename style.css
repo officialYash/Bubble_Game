@@ -19,12 +19,12 @@ background-color: skyblue;
     align-items: center;
     justify-content: center;
     color: white;
-  font-size: 25px;
+  font-size: 30px;
   border-radius: 50%;
   filter: blur(0.5px);
   position: absolute;
-  left: 30%;
-  animation: move 7s infinite ease;
+  animation: move ease;
+  animation-iteration-count: 1;
 }
 
 @keyframes move{
@@ -32,7 +32,7 @@ background-color: skyblue;
         bottom: -5%;
     }
     100% {
-        bottom: 110%;
+        bottom: 100%;
       }
     
 }
