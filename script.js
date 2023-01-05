@@ -84,7 +84,7 @@ const createbubble = () =>{
     mydiv.style.height="50px";
     mydiv.style.bottom="0px";
     mydiv.innerText=alphabhetArray[0];
-    mydiv.style.backgroundColor="purple";
+    mydiv.style.backgroundColor="red";
     mydiv.style.boxShadow=
     "inset -5px -5px 10px rgba(0, 0, 0, 1),1px 1px 1px white,-1px -1px 1px white";
     mydiv.classList.add("bubble");
